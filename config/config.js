@@ -14,11 +14,12 @@ types.setTypeParser(1114,function(stringValue){
 });
 
 const databaseConfig = {
-    'host' : '127.0.0.1',
+    'host' : 'ep-long-pine-577686.us-east-2.aws.neon.tech',
     'port': 5432,
-    'database': 'ufit_db',
-    'user':'postgres',
-    'password':'root'
+    'database': 'neondb',
+    'user':'thiago082882',
+    'password':'A2cXTk5pWODJ',
+    'ssl': {rejectUnauthorized:false}
 };
 
 const db = pgp(databaseConfig);
